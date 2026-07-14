@@ -1,14 +1,14 @@
-- title: Тихая моя родина
+- title: "Тихая моя родина"
   url: "/"
-- title: Глава 1: С чего всё начиналось
+- title: "Глава 1: С чего всё начиналось"
   url: "/chapters/01-s-chego-vsyo-nachinalos.html"
-- title: Глава 2: Однодворцы
+- title: "Глава 2: Однодворцы"
   url: "/chapters/02-odnodvorcy.html"
-- title: Глава 3: Землевладельцы
+- title: "Глава 3: Землевладельцы"
   url: "/chapters/03-zemlevladelcy.html"
-- title: Глава 4: Дворяне
+- title: "Глава 4: Дворяне"
   url: "/chapters/04-dvoryane.html"
-- title: Глава 5: Александровка
+- title: "Глава 5: Александровка"
   url: "/chapters/05-aleksandrovka.html"
-- title: Ссылки
+- title: "Ссылки"
   url: "/chapters/ref.html"
