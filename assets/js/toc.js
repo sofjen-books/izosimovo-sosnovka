@@ -9,6 +9,8 @@ document.addEventListener('DOMContentLoaded', function () {
     { title: 'Ссылки', url: '/chapters/ref' }
   ];
 
+  var link = document.querySelector('link[href*="toc.css"]');
+  var base = link ? link.getAttribute('href').replace(/\/assets\/css\/toc\.css.*/, '') : '';
   var path = window.location.pathname.replace(/\/$/, '');
   var list = document.getElementById('toc-list');
   if (!list) return;
@@ -18,10 +20,10 @@ document.addEventListener('DOMContentLoaded', function () {
     li.className = 'toc-item';
 
     var a = document.createElement('a');
-    a.href = ch.url;
+    a.href = base + ch.url;
     a.textContent = ch.title;
 
-    var chPath = ch.url.replace(/\/$/, '');
+    var chPath = (base + ch.url).replace(/\/$/, '');
     if (path === chPath || path === chPath + '.html' || (chPath !== '' && path.indexOf(chPath) === 0)) {
       li.className = 'toc-item active';
     }
