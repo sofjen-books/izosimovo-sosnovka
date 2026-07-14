@@ -42,7 +42,7 @@
 
 .toc-list a {
   display: block;
-  padding: 0.3rem 0.75rem;
+  padding: 0.4rem 0.75rem;
   color: #596773;
   text-decoration: none;
   border-left: 2px solid transparent;
@@ -56,17 +56,11 @@
   border-left-color: #157878;
 }
 
-.toc-list a.active {
+.toc-item.active > a {
   color: #157878;
   border-left-color: #157878;
   font-weight: 600;
 }
-
-.toc-list .toc-h2 { padding-left: 0.5rem; }
-.toc-list .toc-h3 { padding-left: 1rem; }
-
-.toc-list .toc-h2 a { font-size: 0.78rem; }
-.toc-list .toc-h3 a { font-size: 0.75rem; }
 
 @media (min-width: 64em) {
   .toc-sidebar { display: block; }
