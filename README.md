@@ -30,6 +30,8 @@
 
 Книга об исследовании родословной, истории села Изосимово, однодворцах Тамбовского края, а также о жизни и карьере Александра Христофоровича Бенкендорфа.
 
+[https://sofjen-books.github.io/izosimovo-sosnovka/](https://sofjen-books.github.io/izosimovo-sosnovka/)
+
 [***С чего все начиналось***](chapters/01-s-chego-vsyo-nachinalos.md)
 
 [***Однодворцы***](chapters/02-odnodvorcy.md)
