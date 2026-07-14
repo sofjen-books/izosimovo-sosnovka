@@ -27,13 +27,7 @@
   <div class="page-wrapper">
     <nav class="toc-sidebar" id="toc-sidebar">
       <div class="toc-header">Главы</div>
-      <ul class="toc-list">
-        {% for item in site.data.navigation %}
-        <li class="toc-item{% if page.url == item.url %} active{% endif %}">
-          <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-        </li>
-        {% endfor %}
-      </ul>
+      <ul class="toc-list" id="toc-list"></ul>
     </nav>
 
     <main id="content" class="main-content" role="main">
@@ -47,5 +41,7 @@
       </footer>
     </main>
   </div>
+
+  <script src="{{ '/assets/js/toc.js' | relative_url }}"></script>
 </body>
 </html>
