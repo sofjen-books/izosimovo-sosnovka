@@ -9,11 +9,11 @@
   display: none;
   width: 14rem;
   flex-shrink: 0;
-  padding: 2rem 0 2rem 1.5rem;
+  padding: 1rem 0 1rem 1.5rem;
   position: sticky;
-  top: 0;
+  top: 1rem;
   align-self: flex-start;
-  max-height: 100vh;
+  max-height: calc(100vh - 2rem);
   overflow-y: auto;
   font-size: 0.8rem;
 }
@@ -42,14 +42,13 @@
 
 .toc-list a {
   display: block;
-  padding: 0.4rem 0.75rem;
+  padding: 0.3rem 0.75rem;
   color: #596773;
   text-decoration: none;
   border-left: 2px solid transparent;
   margin-left: -1px;
   transition: color 0.15s, border-color 0.15s;
   line-height: 1.4;
-  font-size: 0.85rem;
 }
 
 .toc-list a:hover {
@@ -57,11 +56,17 @@
   border-left-color: #157878;
 }
 
-.toc-item.active > a {
+.toc-list a.active {
   color: #157878;
   border-left-color: #157878;
   font-weight: 600;
 }
+
+.toc-list .toc-h2 { padding-left: 0.5rem; }
+.toc-list .toc-h3 { padding-left: 1rem; }
+
+.toc-list .toc-h2 a { font-size: 0.78rem; }
+.toc-list .toc-h3 a { font-size: 0.75rem; }
 
 @media (min-width: 64em) {
   .toc-sidebar { display: block; }
