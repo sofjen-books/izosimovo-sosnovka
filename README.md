@@ -6,7 +6,7 @@
 
 И от этого, не менее любимая.
 
-![](./assets/images/image-00-01.png)
+![](./assets/images/ch00-01.png)
 
 В заветных ладанках не носим на груди,  
 О ней стихи навзрыд не сочиняем,  
@@ -30,14 +30,14 @@
 
 Книга об исследовании родословной, истории села Изосимово, однодворцах Тамбовского края, а также о жизни и карьере Александра Христофоровича Бенкендорфа.
 
-[***С чего все начиналось***](chapters/01-issledovanie-rodoslovnoy.md)
+[***С чего все начиналось***](chapters/01-s-chego-vsyo-nachinalos.md)
 
-[***Однодворцы***](chapters/03-odnodvorcy.md)
+[***Однодворцы***](chapters/02-odnodvorcy.md)
 
-[***Землевладельцы***](chapters/04-mezhevye-knigi.md)
+[***Землевладельцы***](chapters/03-zemlevladelcy.md)
 
-[***Дворяне***](chapters/05-administrativnoe-delenie.md)
+[***Дворяне***](chapters/04-dvoryane.md)
 
-[***Александровка***](chapters/07-istoriya-sela-sosnovka.md)
+[***Александровка***](chapters/05-aleksandrovka.md)
 
 [***Ссылки***](chapters/ref.md)
